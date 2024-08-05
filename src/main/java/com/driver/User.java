@@ -4,9 +4,9 @@ public class User {
     private String name;
     private String mobile;
 
-       public User(String name, String mobileNumber) {
+       public User(String name, String mobile) {
         this.name = name;
-        this.mobileNumber = mobileNumber;
+        this.mobile = mobile;
     }
 
     // Getters and Setters
@@ -18,11 +18,11 @@ public class User {
         this.name = name;
     }
 
-    public String getMobileNumber() {
-        return mobileNumber;
+    public String getMobile() {
+        return mobile;
     }
 
-    public void setMobileNumber(String mobileNumber) {
-        this.mobileNumber = mobileNumber;
+    public void setMobile(String mobile) {
+        this.mobile = mobile;
     }
 }
